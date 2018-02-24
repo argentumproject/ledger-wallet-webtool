@@ -148,6 +148,23 @@ const networks = {
     handleFeePerByte: false,
     areTransactionTimestamped: false
   },
+  45: {
+    name: "argentum",
+    satoshi: 8,
+    unit: "ARG",
+    xpub: 76067358,
+    apiName: "arg",
+    bitcoinjs: {
+      messagePrefix: "Argentum Signed Message:",
+      bip32: { public: 76067358, private: 87393172 },
+      pubKeyHash: 23,
+      scriptHash: 5,
+      wif: 128
+    },
+    isSegwitSupported: false,
+    handleFeePerByte: false,
+    areTransactionTimestamped: false
+  },
   47: {
     name: "poswallet",
     satoshi: 8,
